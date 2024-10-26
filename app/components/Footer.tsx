@@ -1,7 +1,9 @@
 const Footer = () => {
   return (
-    <footer>
-      <p>© 2024 - Made with ❤️ by Frederico Vieira</p>
+    <footer className="py-6 mt-8">
+      <p className="container text-center">
+        © 2024 - Made with ❤️ by Frederico Vieira
+      </p>
     </footer>
   );
 };
