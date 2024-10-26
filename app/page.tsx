@@ -1,10 +1,12 @@
-import { Header, Footer } from "./components";
+import { Card, Footer, Header } from "./components";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main>Content here</main>
+      <main>
+        <Card />
+      </main>
       <Footer />
     </>
   );
