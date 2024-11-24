@@ -3,13 +3,13 @@ type CardProps = {
   flag: string;
   capital: string;
   region: string;
-  population: number;
+  population: string;
 };
 
 const Card = ({ country, flag, capital, region, population }: CardProps) => {
   return (
     <div className="h-full overflow-hidden bg-white rounded-lg shadow-lg">
-      <div className="aspect-video w-full overflow-hidden bg-gray-100">
+      <div className="aspect-video w-full bg-gray-100">
         <img
           src={flag}
           alt={`Flag of ${country}`}

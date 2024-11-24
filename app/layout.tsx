@@ -7,7 +7,7 @@ const notoSans = Noto_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Fun with Flags",
+  title: "Fun with flags",
   description: "Flags of the world",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={notoSans.className}>{children}</body>
+      <body className={`${notoSans.className} antialiased`}>{children}</body>
     </html>
   );
 }

@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #494949;
-  --foreground: #dadada;
+  --background: #fbfbfb;
+  --foreground: #4b5563;
 }
 
 body {
@@ -16,8 +16,4 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 2rem;
-}
-
-main {
-  flex: 1;
 }
