@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="py-6 mt-8">
-      <p className="text-center">© 2024 - Made with ❤️ by Frederico Vieira</p>
+    <footer className="py-6 mb-8">
+      <p className="text-center">Made with ♥️ by Frederico Vieira</p>
     </footer>
   );
 };
